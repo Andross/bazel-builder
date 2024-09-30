@@ -1,3 +1,3 @@
 module "bazel-builder" {
-  source = "github.com/Andross/bazel-builder//modules?ref=4e6b57f"
+  source = "github.com/Andross/bazel-builder//modules?ref=f9d3360"
 }
